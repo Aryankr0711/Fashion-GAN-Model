@@ -1,0 +1,13 @@
+# Large Dataset files (>100MB exceeds GitHub push limit)
+fashion-mnist_train.csv
+fashion-mnist_test.csv
+*.csv
+
+# Large Model Weights & Checkpoints
+fashion_gan_generator_100epochs.h5
+*.h5
+*.keras
+
+# Python caches
+__pycache__/
+*.pyc
